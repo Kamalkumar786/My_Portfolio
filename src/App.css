@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +14,7 @@
 a {
   text-decoration: none;
 }
-.Container{
-  width: 200vh;
-}
+
 a:hover,
 a:active {
   color: #fafafa !important;
@@ -32,14 +31,14 @@ body {
   font-size: 1.25rem;
 }
 
-
-/* nav {
+/*
+nav {
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   width: 300px;
-} */
+}
 
 .background {
   position: absolute;
@@ -53,9 +52,9 @@ body {
 button {
   outline: none;
   border: none;
-  /* -webkit-user-select: none;
+  -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none; */
+  -ms-user-select: none;
   cursor: pointer;
   position: absolute;
   top: 18px;
@@ -115,13 +114,12 @@ li {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-} 
+} */
 .fixed-top {
   background-color: #0e1516;
 }
 .home {
   /* background-color: #210811; */
-  width: 100%;
   display: flex;
   flex-direction: column;
   font-size: 4.5rem;
@@ -144,7 +142,7 @@ li {
 .contact {
   margin-top: 100px;
   text-align: center;
-  color:white;
+  color: #fff;
 }
 .about {
   font-size: 1.5rem;
@@ -175,14 +173,6 @@ li {
   text-align: justify;
 }
 
-.wrapper h3{ 
-  color:yellow;
-}
-.wrapper p{
-  color: white;
-  text-align: left;
-}
-
 .projects .wrapper,
 .services .wrapper {
   max-width: 1200px;
@@ -194,21 +184,11 @@ li {
 }
 .card {
   background-color: transparent;
-  
 }
 
-.services {
-  
-  height: 93vh; 
+.wrapper p,h3{
+  color: white;
 }
-.about {
-  
-  height: 93vh; 
-}
-.contact {
-  
-  height: 93vh; 
-}*/
 .progress-bar-animate {
   position: fixed;
   top: 0;
